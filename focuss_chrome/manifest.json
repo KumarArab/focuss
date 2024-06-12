@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Focuss",
+    "version": "1.0",
+    "description": "Redirects Instagram Reels and Youtube Shorts to Google.",
+    "permissions": [
+        "activeTab",
+        "webNavigation"
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "host_permissions": [
+        "https://www.instagram.com/*",
+        "https://www.youtube.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.instagram.com/*",
+                "https://www.youtube.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

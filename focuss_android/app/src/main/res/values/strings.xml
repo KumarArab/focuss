@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="accessibility_service_description">You again bitch</string>
+    <string name="enable_service">Enable Service</string>
+    <string name="please_enable_the_accessibility_service_and_overlay_permission_to_allow_the_app_to_work_correctly">Please enable the accessibility service and overlay permission to allow the app to work correctly.</string>
+    <string name="reel_blocker">Reel Blocker</string>
+    <string name="you_are_on_the_reels_tab_stop_scrolling">You are on the Reels tab. Stop scrolling!</string>
+    <string name="close">Close</string>
+</resources>
